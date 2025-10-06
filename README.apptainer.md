@@ -43,7 +43,6 @@ apptainer build /path/to/output/container/alphafold232_3.sif docker-archive://al
 Change at least 
 
 OUTPUTDIR="CHANGEME"
-FASTADIR="$HOME/alphafold_Files/"
 
 *  Run container
   *  alphafoldv2_apptainer.sh
