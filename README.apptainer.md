@@ -42,7 +42,7 @@ apptainer build /path/to/output/container/alphafold232_3.sif docker-archive://al
 
 Change at least 
 
-OUTPUTDIR="CHANGEME"
+`OUTPUTDIR="CHANGEME"`
 
 *  Run container
-  *  alphafoldv2_apptainer.sh
+  *  `sbatch -p gpuq --gres=gpu:1 alphafoldv2_apptainer.sh`
