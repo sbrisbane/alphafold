@@ -13,7 +13,7 @@
  * Create a conda environment for run_singularity_alphafoldv2.py
    * `module load conda` 
      * See elsewhere if you need to install miniconda first
-   * `conda env create -f environment.yml  -p $CONDA_PREFIX/envs/alpharun`
+   * `conda env create -f environment.yml  `
   
 * Build container
 * You may need to do this as root if you have not set up podman to allow rootless for users (subuid/subgid)
