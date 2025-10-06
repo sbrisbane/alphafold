@@ -44,7 +44,7 @@ with more memory can predict larger protein structures).
 
 Please follow these steps:
 
-1.  Install [Docker](https://www.docker.com/).
+1.  Install [Docker](https://www.docker.com/). See README.apptainer.md for podman/apptainer setup.
 
     *   Install
         [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
